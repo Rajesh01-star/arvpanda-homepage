@@ -26,8 +26,8 @@ const Work = () => (
       </P>
       <P>
         {' '}
-        As it's the dummy app replica off the original blog site of mine its
-        open for everyone.just type '/compose' in the url-bar and start writing.
+        As it was the  app replica off the original blog site of mine its
+        Open for everyone.just type '/compose' in the url-bar and start writing.
       </P>
 
       <List ml={4} my={4}>

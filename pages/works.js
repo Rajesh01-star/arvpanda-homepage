@@ -1,3 +1,6 @@
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { Button } from '@chakra-ui/react'
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -20,6 +23,20 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
+      <NextLink
+        href="https://www.canva.com/design/DAEmzHG-PhU/L_fWiXKZayxxvdyT3_w2gw/view"
+        scroll={false}
+      >
+        <Button
+          rightIcon={<ChevronRightIcon />}
+          colorScheme="teal"
+          style={{
+            marginBottom: '50px'
+          }}
+        >
+          My resume
+        </Button>
+      </NextLink>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>

@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Atharv",
-  "license": "MIT",
+  "license": "None",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.2",

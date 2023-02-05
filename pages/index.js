@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Atharv Kumar
+            Rajesh Kumar
           </Heading>
           <p>Digital Craftsman (3D Artist / Developer / Designer )</p>
         </Box>
@@ -74,11 +74,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Atharv is a freelance and a full-stack developer based in Bhubaneswar
-          with a passion for building digital stuff he wants. He has a knack for
-          all things launching products, from planning and designing all the way
-          to solving real-life problems with code. When not online, he loves
-          hanging out with his Friends.
+          Rajesh aka. Atharv is a freelance and a full-stack developer based in
+          Bhubaneswar with a passion for building digital stuffs. He loves the
+          process of building something new doesn't matter if its designing task
+          or developing task or its a task of scene modeling in blender. When
+          not online, he loves hanging out with his Friends.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -95,17 +95,16 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2001</BioYear>
-          Born in Bhubaneswar (布巴內斯瓦爾), Odisha.
+          Born in Bhubaneswar, Odisha.
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Completed the 12th;s Program in the Rajadhani Higher Secondary School
-          And currently pursuing my Btech degree in Computer Science engineering
-          from Kalinga Institute of Industrial Technology.
+          Completed the 12th program from Rajadhani Higher Secondary School And
+          currently pursuing my B.tech degree in Electronics & Telecommunication
+          engineering from Kalinga Institute of Industrial Technology (KIIT).
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Works as a freelance
         </BioSection>
       </Section>
 
@@ -114,15 +113,11 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Developing, Kabaddi,{' '}
+          Developing, Kabaddi, Running, Taekwondo ,
           <Link href="" target="_blank">
-            {'Tricking & Parkour'}
+            Tricking & Parkour{' '}
           </Link>
-          ,Taekwondo ,{' '}
-          <Link href="" target="_blank">
-            Running
-          </Link>
-          , And Coffee of course.
+          And Coffee of course.
         </Paragraph>
       </Section>
 
@@ -138,7 +133,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @arvpanda
+                @rajeshkumar
               </Button>
             </Link>
           </ListItem>
@@ -149,7 +144,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @arvpanda (阿塔夫)
+                @rajeshkumar
               </Button>
             </Link>
           </ListItem>
@@ -163,7 +158,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @arvpanda
+                @rajeshkumar
               </Button>
             </Link>
           </ListItem>
