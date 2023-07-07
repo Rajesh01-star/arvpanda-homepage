@@ -101,7 +101,7 @@ const Home = () => (
           <BioYear>2020</BioYear>
           Completed the 12th program from Rajadhani Higher Secondary School And
           currently pursuing my B.tech degree in Electronics & Telecommunication
-          engineering from Kalinga Institute of Industrial Technology (KIIT).
+          engineering and minors in Computer Science from Kalinga Institute of Industrial Technology (KIIT).
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>

@@ -11,11 +11,12 @@ import thumbmapty from '../public/images/works/Mapty app.png'
 import thumbjuice from '../public/images/works/fruitjuice.png'
 import thumbportfolio from '../public/images/works/portfolio 2.png'
 import thumbBankist from '../public/images/works/Bankist.png'
-import thumbblog from '../public/images/works/blog database.png'
-import thumbsignup from '../public/images/works/Sign up.png'
-import thumbaradhana from '../public/images/works/Aradhana.png'
-import thumbanuskha from '../public/images/works/Anuskha.png'
 import thumbunis from '../public/images/works/Unisthree.png'
+import thumbsheets from '../public/images/works/sheets.png'
+import thumbcarousel from '../public/images/works/carousel.png'
+import thumbputatoe from '../public/images/works/putatoe.png'
+import thumbblog from '../public/images/works/blog.png'
+import thumbmeta from '../public/images/works/metaverse.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -39,35 +40,9 @@ const Works = () => (
       </NextLink>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="Forkify" title="Forkify" thumbnail={thumbrecipe}>
-            A recipe fetching app with 10000+ recipes to cook from and to make
-            life a little easier to deal with.
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem id="Mapty" title="Mapty" thumbnail={thumbmapty}>
-            A map tracking application to track your cardio workout's intensity.
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="Clearjuice"
-            title="Clear juice cart"
-            thumbnail={thumbjuice}
-          >
-            A rebutinated replica of Clear Juice pvt. An animating page with
-            carousel.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="Portfolio"
-            thumbnail={thumbportfolio}
-            title="my portfolio -2"
-          >
-            A simple static site displaying my capabilities in 2019.
+      <Section delay={0.1}>
+          <WorkGridItem id="Putatoe" thumbnail={thumbputatoe} title="Putatoe">
+            A multi-purpose web app that provides user with different day-to-day needs in a single place.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -76,19 +51,42 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Database sites.
+          Small projects.
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="Bankist" thumbnail={thumbBankist} title="Bankist">
-            A full-fledge replica of transaction banks with database.
+      <Section delay={0.1}>
+          <WorkGridItem id="Sheets" thumbnail={thumbsheets} title="Sheets">
+            A working clone of Google sheets with options to do arithematic
+            operations.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="Blog" thumbnail={thumbblog} title="Blog">
-            A blogging site of mine for documenting my thoughts {'<'} fantasies.
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="Blog"
+            thumbnail={thumbblog}
+            title="Blog"
+          >
+            My minimal blog page where I dump all my psychological dysfunctionings.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="Carousel"
+            thumbnail={thumbcarousel}
+            title="Carousel"
+          >
+            A simple movie carousel to show case my favorite movies.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="Metaverse"
+            thumbnail={thumbmeta}
+            title="Metaverse"
+          >
+            A futuristic META landing page with framer animations.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -102,37 +100,52 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="Signup" thumbnail={thumbsignup} title="Sign Up">
-            A simple news letter website to store all the mail ids of my
-            friends.
+        <Section>
+          <WorkGridItem id="Forkify" title="Forkify" thumbnail={thumbrecipe}>
+            A recipe fetching app with 10000+ recipes to cook from and to make
+            life a little easier to deal with.
           </WorkGridItem>
         </Section>
+
+        <Section>
+          <WorkGridItem id="Mapty" title="Mapty" thumbnail={thumbmapty}>
+            A map tracking application to track your cardio workout's intensity.
+          </WorkGridItem>
+        </Section>
+
         <Section delay={0.5}>
           <WorkGridItem
-            id="WebflowA"
-            thumbnail={thumbaradhana}
-            title="Webflow site -1"
+            id="Clearjuice"
+            title="Clear juice cart"
+            thumbnail={thumbjuice}
           >
-            A portfolio site made with Webflow components ie a Sass application
-            alternative of WordPress.
+            A rebutinated replica of Clear Juice pvt. An animating page with
+            carousel.
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
+
+        <Section delay={0.5}>
           <WorkGridItem
-            id="Webflowac"
-            thumbnail={thumbanuskha}
-            title="Webflow site -2"
+            id="Portfolio"
+            thumbnail={thumbportfolio}
+            title="my portfolio -2"
           >
-            A birthday wishing surprise holder also made with Webflow
-            components.
+            A simple static site displaying my capabilities in 2019.
           </WorkGridItem>
         </Section>
+
         <Section delay={0.6}>
           <WorkGridItem id="Discord" thumbnail={thumbunis} title="Unis">
             A multi threaded discord bot with super powers.
           </WorkGridItem>
         </Section>
+
+        <Section delay={0.6}>
+          <WorkGridItem id="Bankist" thumbnail={thumbBankist} title="Bankist">
+            A full-fledge replica of transaction banks with database.
+          </WorkGridItem>
+        </Section>
+
       </SimpleGrid>
     </Container>
   </Layout>

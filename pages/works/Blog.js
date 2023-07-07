@@ -16,25 +16,20 @@ const Work = () => (
   <Layout title="Blog">
     <Container>
       <Title>
-        Blog <Badge>2020-</Badge>
+        Blog <Badge>2021-</Badge>
       </Title>
       <P>
         So this was one of my first project when I started learning NodeJS and
-        trust me when I say ki deploying a full-stack application is far more
+        trust me when I say that deploying a full-stack application is far more
         complicated than developing it. And I guess it turned out well for me in
         this project as I got my googling skills checked.
-      </P>
-      <P>
-        {' '}
-        As it was the  app replica off the original blog site of mine its
-        Open for everyone.just type '/compose' in the url-bar and start writing.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://blog-database01.herokuapp.com/">
-            https://blog-database01.herokuapp.com/
+          <Link href="https://blog-minimal.vercel.app/blog">
+          https://blog-minimal.vercel.app/blog
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -45,7 +40,7 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            HTML, SCSS, Bootstrap, Javascript, NodeJS, MongoDB, Mongoose
+            HTML, SCSS, Javascript, NodeJS, MongoDB, Mongoose
           </span>
         </ListItem>
       </List>
@@ -54,8 +49,8 @@ const Work = () => (
         <Center>Site snaps</Center>
       </Heading>
 
-      <WorkImage src="/images/works/blog database.png" alt="blog" />
-      <WorkImage src="/images/works/Blogone.png" alt="Blog" />
+      <WorkImage src="/images/works/blogMentalHealth.png" alt="health" />
+      <WorkImage src="/images/works/blogMemories.png" alt="memories" />
     </Container>
   </Layout>
 )
