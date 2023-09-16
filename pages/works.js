@@ -18,6 +18,7 @@ import thumbputatoe from '../public/images/works/putatoe.png'
 import thumbblog from '../public/images/works/blog.png'
 import thumbmeta from '../public/images/works/metaverse.png'
 import thumbmedhive from '../public/images/works/Medhive.png'
+import thumbthread from '../public/images/works/threads_one.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -49,6 +50,11 @@ const Works = () => (
         <Section delay={0.1}>
         <WorkGridItem id="Medhive" thumbnail={thumbmedhive} title="Medhive">
           This is a web-app that lets you know all the information about the nearby hospitals.
+          </WorkGridItem>
+          </Section>
+          <Section delay={0.1}>
+        <WorkGridItem id="Thread" thumbnail={thumbthread} title="Thread">
+          This is a full fledge working alternative of Threads app to express thoughts.
           </WorkGridItem>
           </Section>
       </SimpleGrid>
