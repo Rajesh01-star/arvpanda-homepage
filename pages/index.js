@@ -94,7 +94,7 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2001</BioYear>
+          <BioYear>2002</BioYear>
           Born in Bhubaneswar, Odisha.
         </BioSection>
         <BioSection>
