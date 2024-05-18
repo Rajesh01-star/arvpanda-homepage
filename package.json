@@ -25,7 +25,7 @@
     "three": "^0.134.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
