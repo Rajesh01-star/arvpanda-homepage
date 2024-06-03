@@ -15,6 +15,7 @@ import thumbunis from '../public/images/works/Unisthree.png'
 import thumbsheets from '../public/images/works/sheets.png'
 import thumbcarousel from '../public/images/works/carousel.png'
 import thumbputatoe from '../public/images/works/putatoe.png'
+import thumbgajanan from '../public/images/works/gajanan_ss.png'
 import thumbblog from '../public/images/works/blog.png'
 import thumbmeta from '../public/images/works/metaverse.png'
 import thumbmedhive from '../public/images/works/Medhive.png'
@@ -27,7 +28,7 @@ const Works = () => (
         Works
       </Heading>
       <NextLink
-        href="https://www.canva.com/design/DAEmzHG-PhU/L_fWiXKZayxxvdyT3_w2gw/view"
+        href="https://drive.google.com/file/d/1ic5qSeMuL02p1U0Nn70p2dks6aXw6YS9/view"
         scroll={false}
       >
         <Button
@@ -42,21 +43,29 @@ const Works = () => (
       </NextLink>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem id="Putatoe" thumbnail={thumbputatoe} title="Putatoe">
-            A multi-purpose web app that provides user with different day-to-day needs in a single place.
+            A multi-purpose web app that provides user with different day-to-day
+            needs in a single place.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-        <WorkGridItem id="Medhive" thumbnail={thumbmedhive} title="Medhive">
-          This is a web-app that lets you know all the information about the nearby hospitals.
+          <WorkGridItem id="Gajanan" thumbnail={thumbgajanan} title="Gajanan">
+          The new website successfully transitioned Gajanan Driving School to the online world.
           </WorkGridItem>
-          </Section>
-          <Section delay={0.1}>
-        <WorkGridItem id="Thread" thumbnail={thumbthread} title="Thread">
-          This is a full fledge working alternative of Threads app to express thoughts.
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="Medhive" thumbnail={thumbmedhive} title="Medhive">
+            This is a web-app that lets you know all the information about the
+            nearby hospitals.
           </WorkGridItem>
-          </Section>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="Thread" thumbnail={thumbthread} title="Thread">
+            This is a full fledge working alternative of Threads app to express
+            thoughts.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
 
       <Section delay={0.2}>
@@ -68,19 +77,16 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem id="Sheets" thumbnail={thumbsheets} title="Sheets">
             A working clone of Google sheets with options to do arithematic
             operations.
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
-          <WorkGridItem
-            id="Blog"
-            thumbnail={thumbblog}
-            title="Blog"
-          >
-            My minimal blog page where I dump all my psychological dysfunctionings.
+          <WorkGridItem id="Blog" thumbnail={thumbblog} title="Blog">
+            My minimal blog page where I dump all my psychological
+            dysfunctionings.
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
@@ -93,11 +99,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
-          <WorkGridItem
-            id="Metaverse"
-            thumbnail={thumbmeta}
-            title="Metaverse"
-          >
+          <WorkGridItem id="Metaverse" thumbnail={thumbmeta} title="Metaverse">
             A futuristic META landing page with framer animations.
           </WorkGridItem>
         </Section>
@@ -157,7 +159,6 @@ const Works = () => (
             A full-fledge replica of transaction banks with database.
           </WorkGridItem>
         </Section>
-
       </SimpleGrid>
     </Container>
   </Layout>
