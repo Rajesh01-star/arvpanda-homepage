@@ -20,6 +20,8 @@ import thumbblog from '../public/images/works/blog.png'
 import thumbmeta from '../public/images/works/metaverse.png'
 import thumbmedhive from '../public/images/works/Medhive.png'
 import thumbthread from '../public/images/works/threads_one.png'
+import thumbHighradius from '../public/images/works/highradius.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -43,6 +45,11 @@ const Works = () => (
       </NextLink>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.1}>
+          <WorkGridItem id="Highradius" thumbnail={thumbHighradius} title="Highradius">
+          HighRadius provides Autonomous Finance solutions to streamline CFO operations and reduce costs.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="Putatoe" thumbnail={thumbputatoe} title="Putatoe">
             A multi-purpose web app that provides user with different day-to-day
