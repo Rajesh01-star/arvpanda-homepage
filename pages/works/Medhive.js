@@ -28,7 +28,7 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://medhive-n6sidm9rp-rajesh01-star.vercel.app/">
+            <Link href="https://medhive.vercel.app/?vercelToolbarCode=ha2WhgVavkBfEEU">
             https://medhive-n6sidm9rp-rajesh01-star.vercel.app/
               <ExternalLinkIcon mx="2px" />
             </Link>
