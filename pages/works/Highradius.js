@@ -19,12 +19,11 @@ const Work = () => (
         Highradius <Badge>2024-</Badge>
       </Title>
       <P>
-        Certainly! Here’s a paragraph format for your experience as a React
-        Developer: As a React Developer based in Hyderabad, Telangana, I
-        contributed to enhancing various SaaS products by resolving critical UI
-        bugs, significantly improving the user experience. My role involved
-        closely collaborating with clients to analyze requirements and support
-        Agile development, streamlining project workflows and ensuring timely
+        As a React Developer based in Hyderabad, Telangana, I contributed to
+        enhancing various SaaS products by resolving critical UI bugs,
+        significantly improving the user experience. My role involved closely
+        collaborating with clients to analyze requirements and support Agile
+        development, streamlining project workflows and ensuring timely
         delivery.
       </P>
       <P>
