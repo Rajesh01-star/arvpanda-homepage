@@ -30,7 +30,7 @@ const Works = () => (
         Works
       </Heading>
       <NextLink
-        href="https://drive.google.com/file/d/1ic5qSeMuL02p1U0Nn70p2dks6aXw6YS9/view"
+        href="https://drive.google.com/file/d/1-kUes3kdeYdpvX1rTF1K-MMqPx-L6Iq3/view?usp=sharing"
         scroll={false}
       >
         <Button
