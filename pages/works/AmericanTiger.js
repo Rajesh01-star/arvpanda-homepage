@@ -9,7 +9,7 @@ import {
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import { Title, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   
   const Work = () => (
@@ -35,8 +35,8 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.americantiger.io/">
-              https://www.americantiger.io/
+            <Link href="https://ravid.cloud/">
+              https://ravid.cloud/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -71,13 +71,8 @@ import {
             • Streamlined workflows by managing multiple environments and enforcing Git best practices.
           </ListItem>
         </List>
+
   
-        <Heading as="h4" fontSize={16} my={6}>
-          <Center>Work Highlights</Center>
-        </Heading>
-  
-        <WorkImage src="/images/works/americantiger_one.png" alt="americantiger_one" />
-        <WorkImage src="/images/works/americantiger_two.png" alt="americantiger_two" />
       </Container>
     </Layout>
   )
