@@ -19,19 +19,19 @@ const Work = () => (
         Highradius <Badge>2024-</Badge>
       </Title>
       <P>
-        As a React Developer based in Hyderabad, Telangana, I contributed to
-        enhancing various SaaS products by resolving critical UI bugs,
-        significantly improving the user experience. My role involved closely
-        collaborating with clients to analyze requirements and support Agile
-        development, streamlining project workflows and ensuring timely
-        delivery.
+        As a Financial Technology Advisor based in Hyderabad, Telangana, I
+        provided strategic guidance on implementing AI-driven financial
+        automation solutions across various SaaS products. My responsibilities
+        included analyzing client requirements, optimizing product workflows,
+        and ensuring seamless adoption of fintech tools to improve operational
+        efficiency.
       </P>
       <P>
-        I was also involved in redesigning user interfaces for international
-        audiences, adapting layouts to match language preferences and enhance
-        accessibility. Additionally, I implemented robust report generation
-        mechanisms and created interactive dashboards, providing clients with
-        valuable insights and improving overall functionality.
+        I collaborated closely with business and engineering teams to enhance
+        user experiences through data-driven insights and technology alignment.
+        Additionally, I contributed to redesigning client dashboards and
+        reporting systems to better visualize financial performance, streamline
+        reconciliation, and improve decision-making for enterprise clients.
       </P>
 
       <List ml={4} my={4}>
@@ -44,20 +44,20 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web 3.0</span>
+          <span>Financial Automation SaaS</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>React,NextJs,Framer</span>
+          <Meta>Stack / Tools</Meta>
+          <span>HighRadius AI Cloud, Treasury Management, Data Analytics</span>
         </ListItem>
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Site snaps</Center>
+        <Center>Work Highlights</Center>
       </Heading>
 
-      <WorkImage src="/images/works/highradius_one.png" alt="one" />
-      <WorkImage src="/images/works/highradius_two.png" alt="two" />
+      <WorkImage src="/images/works/highradius_one.png" alt="highradius_one" />
+      <WorkImage src="/images/works/highradius_two.png" alt="highradius_two" />
     </Container>
   </Layout>
 )
